@@ -1,0 +1,7 @@
+1.open the current folder in cmd
+2.type sqlite3 gamestore.db
+3.type .schema
+4.profit!
+5. type .help for more commands
+6. All the queries can be done using sql also remember to end them with ;
+7. There is absolutely nothing in the database atm. Unless you insert something, any query will print nothing.

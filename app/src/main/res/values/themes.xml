@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ButtonMashers" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/button_background</item>
+        <item name="colorOnPrimary">@color/white</item>
+    </style>
+
+    <style name="CustomToolbar" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar">
+        <item name="android:background">@color/black</item>
+        <item name="titleTextColor">@color/white</item>
+        <item name="subtitleTextColor">@color/white</item>
+    </style>
+
+    <style name="Theme.ButtonMashers" parent="Base.Theme.ButtonMashers" />
+</resources>
